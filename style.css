@@ -1,0 +1,49 @@
+body{
+    animation: fadein ease-in-out 0.5s;
+    color: black;
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+*{
+    transition: 0.3s ease-in-out;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer {
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+input{
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 20px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: darkgray;
+}
+#myChart{
+    padding-top: 50px;
+}

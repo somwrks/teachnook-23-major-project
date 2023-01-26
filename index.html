@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App | Major Project </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1">Weather App!</h1>
+            <h2>Enter Your City</h2>
+            <input id="city" type="text" > 
+            <button type="submit" id="btn"onclick="getLocation()">Submit</button>
+        <div id="data">
+           <h1 id="title"></h1>
+           <img  id="pic">
+        </div>
+        <h4>Feels like </h4>
+        <h5 id="feel"></h5>
+        <h4>Actual Temperature</h4>
+        <h5 id="temp"></h5>
+        <h4>Humidity</h4>
+        <h5 id="humid"></h5>
+        <canvas id="myChart" width="1000" height="600"></canvas>
+    </div>
+
+    <section class="footer h3 text-primary bg-white color-black">
+        <h1 >
+          Designed and Developed by
+          <a href="https://thevector.xyz">Som Srivastava</a> @Teachnook
+        </h1>
+        <h1 >Time taken - [45mins]</h1>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
